@@ -1,6 +1,8 @@
 # BExpansion
 Another general .NET expansion library for stuff I find useful.
 
+[![NuGet](https://img.shields.io/nuget/v/SERVCUBED.BExpansion.svg)](https://www.nuget.org/packages/SERVCUBED.BExpansion/)
+
 # Reference
 ## BExpansion
 

@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace BExpansion
 {
-    public class Util
+    public static class Util
     {
         /// <summary>
         /// Send a WebRequest (with a timeout of 1000ms). Returns an empty string on timeout.
@@ -89,7 +89,7 @@ namespace BExpansion
         }
 
         /// <summary>
-        /// Read a file without locking it
+        /// Read a file without locking it.
         /// </summary>
         /// <param name="url">The URL of the file to read.</param>
         /// <param name="onError">Optional. The string to return if the file cannot be found.</param>
@@ -140,9 +140,15 @@ namespace BExpansion
             t.Start();
         }
 
-        public static void WriteFile(string url, string contents, Encoding encoding)
+        /// <summary>
+        /// Writes a file to the specified path.
+        /// </summary>
+        /// <param name="uri">The file path.</param>
+        /// <param name="contents">The contents of the file.</param>
+        /// <param name="encoding">The encoding to use.</param>
+        public static void WriteFile(string uri, string contents, Encoding encoding)
         {
-            using (var str = new FileStream(url.MakeFileNameSafe(), FileMode.Create, FileAccess.Write, FileShare.Write))
+            using (var str = new FileStream(uri.MakeFileNameSafe(), FileMode.Create, FileAccess.Write, FileShare.Write))
             {
                 var fileBytes = encoding.GetBytes(contents);
 

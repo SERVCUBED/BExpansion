@@ -65,7 +65,7 @@ namespace BExpansion
         }
 
         /// <summary>
-        /// Pause the current thread while all other threads finish
+        /// Pause the current thread while all other threads finish.
         /// </summary>
         public void WaitForFinish()
         {

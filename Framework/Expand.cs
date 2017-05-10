@@ -13,7 +13,7 @@ namespace BExpansion
     {
         /// <summary>
         /// Concatenates the members of a collection, using the specified separator between each member.
-        /// This is a wrapper for the String.Join function
+        /// This is a wrapper for the String.Join function.
         /// </summary>
         /// <typeparam name="T">The type of the values of the members.</typeparam>
         /// <param name="iEnumerable">The collection.</param>
@@ -57,7 +57,7 @@ namespace BExpansion
         }
 
         /// <summary>
-        /// Returns the next value from the RandomNumberGenerator
+        /// Returns the next value from the RandomNumberGenerator.
         /// </summary>
         /// <param name="r">The RandomNumberGenerator object.</param>
         /// <param name="min">The minimum value.</param>
@@ -71,7 +71,7 @@ namespace BExpansion
         }
 
         /// <summary>
-        /// Returns the next value from the RandomNumberGenerator
+        /// Returns the next value from the RandomNumberGenerator.
         /// </summary>
         /// <param name="r">The RandomNumberGenerator object.</param>
         /// <param name="max">The maximum value.</param>

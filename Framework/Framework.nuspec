@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SERVCUBED.BExpansion</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>SERVCUBED</authors>
+    <owners>SERVCUBED</owners>
+    <licenseUrl>https://github.com/SERVCUBED/BExpansion/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SERVCUBED/BExpansion/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A general .NET expansion library for stuff I find useful</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyleft BExpansion 2016</copyright>
+    <tags>expansion framework</tags>
+  </metadata>
+</package>
